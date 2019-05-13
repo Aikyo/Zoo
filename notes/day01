@@ -1,0 +1,95 @@
+1.封装
+    -将同一类的方法封装到类中
+        class File:
+            对文件的操作与属性
+            def get
+            deg delete
+            def update
+        class DB：
+            数据库的增删改查
+    -将数据封装到对象中(实例化的时候体现在)
+        class A:
+            def __init__(self,name):
+                self.name = name
+
+2.列表生成式
+    [item() for item in [class1,class2]]
+    [list of instances]
+
+3.django中间件
+    *一个request进来要经过两边这些中间件，一个response出去要经过一次
+    *可以用来做登录，权限
+
+
+    -process_request
+    -process_view（csrf 在这里）
+    -process_response
+    -process_exception
+    -process_render_template
+
+    >'django.middleware.csrf.CsrfViewMiddleware',在全站进行token验证
+        >可以用from django.views.decorators.csrf import csrf_exempt,csrf_protect 开关
+        >1.若是CBV的花要使用在dispatch上，加在单独的get post put 上面没有用
+        >2.可以加在类上面，这时候要指定方法，
+            @method_decorator(csrf_exempt,name='dispatch')
+            @method_decorator(csrf_exempt)
+            def dispatch(self, request, *args, **kwargs):
+                print('before')
+                func = super(StudentsView,self).dispatch(request, *args, **kwargs) #super的dispatch之后已经是执行了get方法
+                print('After')
+                return func
+summation
+1.cbv 基于reflection
+2.中间件的作用，csrf 打开关闭（）
+3.装饰器给单独函数设置需要或者不需要csrf
+3.csrf_exempt,csrf_protect 在cbv上的使用
+
+
+restful 规范
+
+1.使用https
+2.域名/url 区分前后端
+
+    跨域，不同域名、端口号
+
+    >域名不同会有跨域的问题
+    前端 www.xxx.com
+    后端 api.xxx.com 》后端能接收到浏览器的请求，请求处理完了返回时被浏览器阻止
+
+    >同域名
+    www.xxx.com/api/
+
+3.路径
+    -使用名词
+
+4.version
+    -使用过度的方式升级版本
+    www.xxx.com/api/v1
+
+5.method
+    -post
+    -get
+    -put 全部跟新
+    -patch 部分更新
+    -delete
+6.在url上传参
+    http://127.0.0.1:8000/order?name=herman&age=12
+
+7.状态码
+    200 成功
+    -200 ok
+    -
+    3 重定向
+    -301   301是永久重定向，表示资源的URI已经永久改变，比如网站的域名更换了那种情况，需要从旧域名重定向到新的域名
+    -302   而302是临时性重定向，就是资源的URI不但这次改变，当下次用户再访问这个资源时，资源的URI可能又会改变了，不再是上次重定向到的那个网址了。
+
+
+    400客户端错误
+    -400 请求有误
+    -403 forbidend
+    -401 unauthorized
+    -404 not found
+
+    500服务器错误
+    -500
+8.

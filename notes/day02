@@ -1,0 +1,73 @@
+1.rest_framework anthenticate
+
+
+    class MyAuthentication(object):
+        def authenticate(self,request):
+            token = request._request.GET.get('token')
+            if not token:
+                raise exceptions.AuthenticationFailed("authenticate failed 认证失败！")
+            return ('alex',None)#认证成功登陆的用户
+        def authenticate_header(self,user):
+            pass
+
+
+    authentication_classes = [MyAuthentication,]#把自己的认证方法写到这里边去
+
+2.源码流程
+    url->as_view()->dispatch->.....
+
+
+
+3.中间件
+    -process request
+    -process response
+    -process view
+    -process exception
+    -process template
+
+    中间件可以做什么（使用的中间件是process view）
+        csrf 认证 ：post请求时需要携带，此前从我这获得的随机字符串（先get请求，给你一个token，你在发回来）
+
+4.面向对象
+    -把相同的方法，属性封装到一个类中
+    -继承就近原则
+5.django的请求生命周期
+    -wsgi
+    -中间件
+    -url  CBV
+    -view
+    -dispatch(rest_framework 在dispatch的时候加了很多功能)
+    -func
+6.rest_framework
+    *********************
+    dispatch******************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
