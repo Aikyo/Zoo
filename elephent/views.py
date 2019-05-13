@@ -10,6 +10,7 @@ import time
 import hashlib
 import json
 import logging
+from django.core import serializers
 logger = logging.getLogger('elephent.views')
 
 def md5(name):
@@ -51,10 +52,15 @@ class OrderView(APIView):
     def get(self,request):
         try:
             orders = models.Order.objects.all()
+            orders = serializers.serialize('json',orders,ensure_ascii=False)
+            print(orders)
         except Exception as e:
             logger.error(e)
-
-        return JsonResponse(orders,safe=False)
+        ret = {'code': 200 }
+        ret['data'] = orders
+ 
+        #return JsonResponse(orders,safe=False)
+        return HttpResponse(orders)
 
 
 

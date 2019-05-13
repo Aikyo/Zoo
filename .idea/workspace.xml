@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="686ab939-62cb-4782-8c98-48a112914797" name="Default Changelist" comment="" />
+    <list default="true" id="686ab939-62cb-4782-8c98-48a112914797" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elephent/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/elephent/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/all.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/log/error.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+              <caret line="21" column="88" lean-forward="true" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -59,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/elephent/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="242">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <element signature="e#433#1143#0" />
@@ -117,6 +121,9 @@
       <find>logging</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -135,12 +142,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollToSource ProjectPane="true" />
@@ -160,29 +168,6 @@
               <item name="herman" type="b2602c69:ProjectViewProjectNode" />
               <item name="herman" type="462c0819:PsiDirectoryNode" />
               <item name="elephent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="herman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herman" type="462c0819:PsiDirectoryNode" />
-              <item name="elephent" type="462c0819:PsiDirectoryNode" />
-              <item name="views.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="herman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herman" type="462c0819:PsiDirectoryNode" />
-              <item name="elephent" type="462c0819:PsiDirectoryNode" />
-              <item name="views.py" type="8704e2dd:PyFileNode" />
-              <item name="OrderView" type="dd8bbb05:PyElementNode" />
-            </path>
-            <path>
-              <item name="herman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herman" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="herman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herman" type="462c0819:PsiDirectoryNode" />
-              <item name="Zoo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="herman" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="533" y="70" width="299" height="587" id="Project" order="0" visible="true" weight="0.2157738" />
@@ -336,7 +321,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.28279388" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,13 +500,6 @@
     <entry file="file://$PROJECT_DIR$/elephent/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elephent/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -539,10 +517,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="88" lean-forward="true" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/elephent/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="242">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <element signature="e#433#1143#0" />

@@ -758,3 +758,59 @@
 2019-05-13 10:40:56,645 [Thread-2:10504] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`  LIMIT 21; args=()
 2019-05-13 10:40:56,649 [Thread-2:10504] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`  LIMIT 21; args=()
 2019-05-13 10:40:56,676 [Thread-2:10504] [django.server:154] [basehttp:log_message] [ERROR]- "GET /api/v1/order HTTP/1.1" 500 18930
+2019-05-13 12:04:46,302 [Dummy-1:22168] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:04:46,305 [Dummy-1:22168] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:04:46,312 [Dummy-1:22168] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2019-05-13 12:04:46,323 [Dummy-1:22168] [django.db.backends:111] [utils:execute] [DEBUG]- (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:04:55,880 [Thread-2:18316] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:04:55,882 [Thread-2:18316] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:04:55,895 [Thread-2:18316] [django.db.backends:111] [utils:execute] [DEBUG]- (0.009) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`; args=()
+2019-05-13 12:04:55,898 [Thread-2:18316] [django.server:154] [basehttp:log_message] [INFO]- "GET /api/v1/order HTTP/1.1" 200 408
+2019-05-13 12:05:38,099 [Dummy-1:24360] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:05:38,105 [Dummy-1:24360] [django.db.backends:111] [utils:execute] [DEBUG]- (0.005) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:05:38,114 [Dummy-1:24360] [django.db.backends:111] [utils:execute] [DEBUG]- (0.008) SHOW FULL TABLES; args=None
+2019-05-13 12:05:38,126 [Dummy-1:24360] [django.db.backends:111] [utils:execute] [DEBUG]- (0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:05:40,833 [Thread-2:2588] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:05:40,836 [Thread-2:2588] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:05:40,846 [Thread-2:2588] [django.db.backends:111] [utils:execute] [DEBUG]- (0.007) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`; args=()
+2019-05-13 12:05:40,849 [Thread-2:2588] [django.server:154] [basehttp:log_message] [INFO]- "GET /api/v1/order HTTP/1.1" 200 342
+2019-05-13 12:06:24,962 [Dummy-1:19184] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:06:24,971 [Dummy-1:19184] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:06:24,978 [Dummy-1:19184] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2019-05-13 12:06:24,988 [Dummy-1:19184] [django.db.backends:111] [utils:execute] [DEBUG]- (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:06:25,290 [Thread-2:2680] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:06:25,293 [Thread-2:2680] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:06:25,305 [Thread-2:2680] [django.db.backends:111] [utils:execute] [DEBUG]- (0.008) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`; args=()
+2019-05-13 12:06:25,310 [Thread-2:2680] [django.server:154] [basehttp:log_message] [INFO]- "GET /api/v1/order HTTP/1.1" 200 342
+2019-05-13 12:07:39,680 [Dummy-1:3436] [django.db.backends:111] [utils:execute] [DEBUG]- (0.005) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:07:39,684 [Dummy-1:3436] [django.db.backends:111] [utils:execute] [DEBUG]- (0.003) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:07:39,691 [Dummy-1:3436] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2019-05-13 12:07:39,700 [Dummy-1:3436] [django.db.backends:111] [utils:execute] [DEBUG]- (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:07:50,368 [Dummy-1:11872] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:07:50,375 [Dummy-1:11872] [django.db.backends:111] [utils:execute] [DEBUG]- (0.004) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:07:50,382 [Dummy-1:11872] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2019-05-13 12:07:50,399 [Dummy-1:11872] [django.db.backends:111] [utils:execute] [DEBUG]- (0.009) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:08:05,331 [Dummy-1:10384] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:08:05,334 [Dummy-1:10384] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:08:05,343 [Dummy-1:10384] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2019-05-13 12:08:05,351 [Dummy-1:10384] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:08:05,665 [Thread-2:24564] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:08:05,666 [Thread-2:24564] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:08:05,677 [Thread-2:24564] [django.db.backends:111] [utils:execute] [DEBUG]- (0.008) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`; args=()
+2019-05-13 12:08:05,681 [Thread-2:24564] [django.server:154] [basehttp:log_message] [INFO]- "GET /api/v1/order HTTP/1.1" 200 312
+2019-05-13 12:09:25,739 [Dummy-1:21540] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:09:25,745 [Dummy-1:21540] [django.db.backends:111] [utils:execute] [DEBUG]- (0.004) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:09:25,754 [Dummy-1:21540] [django.db.backends:111] [utils:execute] [DEBUG]- (0.008) SHOW FULL TABLES; args=None
+2019-05-13 12:09:25,767 [Dummy-1:21540] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:09:26,222 [Thread-2:23564] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:09:26,224 [Thread-2:23564] [django.db.backends:111] [utils:execute] [DEBUG]- (0.001) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:09:26,232 [Thread-2:23564] [django.db.backends:111] [utils:execute] [DEBUG]- (0.004) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`; args=()
+2019-05-13 12:09:26,237 [Thread-2:23564] [django.server:154] [basehttp:log_message] [INFO]- "GET /api/v1/order HTTP/1.1" 200 8
+2019-05-13 12:10:07,961 [Dummy-1:14356] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:10:07,964 [Dummy-1:14356] [django.db.backends:111] [utils:execute] [DEBUG]- (0.002) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:10:07,976 [Dummy-1:14356] [django.db.backends:111] [utils:execute] [DEBUG]- (0.009) SHOW FULL TABLES; args=None
+2019-05-13 12:10:07,986 [Dummy-1:14356] [django.db.backends:111] [utils:execute] [DEBUG]- (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-05-13 12:10:08,866 [Thread-2:16536] [django.db.backends:111] [utils:execute] [DEBUG]- (0.003) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-05-13 12:10:08,882 [Thread-2:16536] [django.db.backends:111] [utils:execute] [DEBUG]- (0.006) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+2019-05-13 12:10:08,887 [Thread-2:16536] [django.db.backends:111] [utils:execute] [DEBUG]- (0.004) SELECT `elephent_order`.`id`, `elephent_order`.`name`, `elephent_order`.`price`, `elephent_order`.`describe` FROM `elephent_order`; args=()
+2019-05-13 12:10:08,919 [Thread-2:16536] [django.server:154] [basehttp:log_message] [INFO]- "GET /api/v1/order HTTP/1.1" 200 8
